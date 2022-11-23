@@ -32,6 +32,12 @@ const Navbar = () => {
         <div className="hidden lg:flex gap-8 mr-[2%]">
           <Link
             className="text-gray-600 hover:text-black cursor-pointer text-lg"
+            href="/"
+          >
+            Home
+          </Link>
+          <Link
+            className="text-gray-600 hover:text-black cursor-pointer text-lg"
             href="/#features"
           >
             Features
@@ -52,7 +58,13 @@ const Navbar = () => {
       </nav>
       <div className="">
         {!isMenu && (
-          <div className="w-[50%] ml-auto flex flex-col justify-center items-center gap-10 h-[30vh] ">
+          <div className="w-[50%] ml-auto flex flex-col justify-center items-center gap-10 h-[30vh] pb-8">
+            <Link
+              className="text-gray-600 hover:text-black cursor-pointer text-lg"
+              href="/"
+            >
+              Home
+            </Link>
             <Link
               className="text-gray-600 hover:text-black cursor-pointer text-lg"
               href="#features"
